@@ -8,15 +8,13 @@
 ```
 
 ## Output
-+-----------+
 | job       |
-+-----------+
+|-----------|
 | CLERK     |
 | SALESMAN  |
 | MANAGER   |
 | ANALYST   |
 | PRESIDENT |
-+-----------+
 
 ## 2. List all information about employee in Department Number 30.
 
@@ -26,16 +24,14 @@
 ```
 
 ## Output
-+-------+--------+----------+------+------------+------+------+--------+
 | Empno | Ename  | Job      | Mgr  | Hiredate   | Sal  | Comm | Deptno |
-+-------+--------+----------+------+------------+------+------+--------+
+|-------|--------|----------|------|------------|------|------|--------|
 |  7499 | ALLEN  | SALESMAN | 7698 | 1981-02-20 | 1600 |  300 |     30 |
 |  7521 | WARD   | SALESMAN | 7698 | 1981-02-22 | 1250 |  300 |     30 |
 |  7654 | MARTIN | SALESMAN | 7698 | 1981-09-28 | 1250 | 1400 |     30 |
 |  7698 | BLAKE  | MANAGER  | 7839 | 1981-05-01 | 3135 | NULL |     30 |
 |  7844 | TURNER | SALESMAN | 7698 | 1981-09-08 | 1500 |    0 |     30 |
 |  7900 | JAMES  | CLERK    | 7698 | 1981-12-03 | 1045 | NULL |     30 |
-+-------+--------+----------+------+------------+------+------+--------+
 
 ## 3. Find all department number with department names greater than 20.
 
@@ -45,11 +41,9 @@
 ```
 
 ## Output
-+--------+------------+
 | Deptno | Dname      |
-+--------+------------+
+|--------|------------|
 |     40 | OPERATIONS |
-+--------+------------+
 
 ## 4. Find all information about all the managers as well as the clerks in department 30.
 
@@ -59,12 +53,10 @@
 ```
 
 ## Output
-+-------+-------+---------+------+------------+------+------+--------+
 | Empno | Ename | Job     | Mgr  | Hiredate   | Sal  | Comm | Deptno |
-+-------+-------+---------+------+------------+------+------+--------+
+|-------|-------|---------|------|------------|------|------|--------|
 |  7698 | BLAKE | MANAGER | 7839 | 1981-05-01 | 3135 | NULL |     30 |
 |  7900 | JAMES | CLERK   | 7698 | 1981-12-03 | 1045 | NULL |     30 |
-+-------+-------+---------+------+------------+------+------+--------+
 
 ## 5. List the Employee name, Employee numbers and department of all clerks.
 
@@ -74,14 +66,12 @@
 ```
 
 ## Output
-+--------+-------+--------+
 | Ename  | Empno | Deptno |
-+--------+-------+--------+
+|--------|-------|--------|
 | SMITH  |  7369 |     20 |
 | ADAMS  |  7876 |     20 |
 | JAMES  |  7900 |     30 |
 | MILLER |  7934 |     10 |
-+--------+-------+--------+
 
 ## 6. Find all managers not in department 30.
 
@@ -91,12 +81,10 @@
 ```
 
 ## Output
-+-------+-------+---------+------+------------+------+------+--------+
 | Empno | Ename | Job     | Mgr  | Hiredate   | Sal  | Comm | Deptno |
-+-------+-------+---------+------+------------+------+------+--------+
+|-------|-------|---------|------|------------|------|------|--------|
 |  7566 | JONES | MANAGER | 7839 | 1981-04-02 | 3273 | NULL |     20 |
 |  7782 | CLARK | MANAGER | 7839 | 1981-06-09 | 2695 | NULL |     20 |
-+-------+-------+---------+------+------------+------+------+--------+
 
 ## 7. List information about all Employees in department 10 who are not manager or clerks.
 
@@ -116,13 +104,11 @@ Empty set (0.001 sec)
 ```
 
 ## Output
-+--------+----------+
 | Ename  | Job      |
-+--------+----------+
+|--------|----------|
 | WARD   | SALESMAN |
 | MARTIN | SALESMAN |
 | ADAMS  | CLERK    |
-+--------+----------+
 
 ## 9. List Name and Department Number of employee who are clerks, analyst or salesman.
 
@@ -132,9 +118,8 @@ Empty set (0.001 sec)
 ```
 
 ## Output
-+--------+--------+
 | Ename  | Deptno |
-+--------+--------+
+|--------|--------|
 | SMITH  |     20 |
 | ALLEN  |     30 |
 | WARD   |     30 |
@@ -145,7 +130,6 @@ Empty set (0.001 sec)
 | JAMES  |     30 |
 | FORD   |     20 |
 | MILLER |     10 |
-+--------+--------+
 
 ## 10. List Name and Department Number of employee whose names began with M.
 
@@ -155,9 +139,7 @@ Empty set (0.001 sec)
 ```
 
 ## Output
-+--------+--------+
 | Ename  | Deptno |
-+--------+--------+
+|--------|--------|
 | MARTIN |     30 |
 | MILLER |     10 |
-+--------+--------+
