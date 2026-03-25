@@ -8,16 +8,14 @@
 ```
 
 ## Output
-+--------+----------+
 | Ename  | Job      |
-+--------+----------+
+|--------|----------|
 | BLAKE  | MANAGER  |
 | ALLEN  | SALESMAN |
 | TURNER | SALESMAN |
 | WARD   | SALESMAN |
 | MARTIN | SALESMAN |
 | JAMES  | CLERK    |
-+--------+----------+
 
 ## 2. List job and Department Number of employees whose name are five letters long begin with “A” and end with “N”.
 
@@ -27,11 +25,9 @@
 ```
 
 ## Output
-+----------+--------+
 | Job      | Deptno |
-+----------+--------+
+|----------|--------|
 | SALESMAN |     30 |
-+----------+--------+
 
 ## 3. Display the name of employees whose name start with alphabet S.
 
@@ -41,12 +37,10 @@
 ```
 
 ## Output
-+-------+
 | Ename |
-+-------+
+|-------|
 | SMITH |
 | SCOTT |
-+-------+
 
 ## 4. Display the names of employees whose name ends with alphabet S.
 
@@ -56,13 +50,11 @@
 ```
 
 ## Output
-+-------+
 | Ename |
-+-------+
+|-------|
 | JONES |
 | ADAMS |
 | JAMES |
-+-------+
 
 ## 5. Display the names of employees working in department number 10 or 20 or 40 or employees working as clerks, salesman or analyst.
 
@@ -72,9 +64,8 @@
 ```
 
 ## Output
-+--------+
 | Ename  |
-+--------+
+|--------|
 | SMITH  |
 | ALLEN  |
 | WARD   |
@@ -88,7 +79,6 @@
 | JAMES  |
 | FORD   |
 | MILLER |
-+--------+
 
 ## 6. Display employee number and names for employees who earn commission.
 
@@ -98,13 +88,11 @@
 ```
 
 ## Output
-+-------+--------+
 | Empno | Ename  |
-+-------+--------+
+|-------|--------|
 |  7499 | ALLEN  |
 |  7521 | WARD   |
 |  7654 | MARTIN |
-+-------+--------+
 
 ## 7. Display employee number and total salary for each employee.
 
@@ -114,9 +102,8 @@
 ```
 
 ## Output
-+-------+-----------+
 | Empno | Total_Sal |
-+-------+-----------+
+|-------|-----------|
 |  7369 |       880 |
 |  7499 |      1900 |
 |  7521 |      1550 |
@@ -131,7 +118,6 @@
 |  7900 |      1045 |
 |  7902 |      3300 |
 |  7934 |      1430 |
-+-------+-----------+
 
 ## 8. Display employee number and annual salary for each employee.
 
@@ -141,9 +127,8 @@
 ```
 
 ## Output
-+-------+------------+
 | Empno | Annual_Sal |
-+-------+------------+
+|-------|------------|
 |  7369 |      10560 |
 |  7499 |      19200 |
 |  7521 |      15000 |
@@ -158,7 +143,6 @@
 |  7900 |      12540 |
 |  7902 |      39600 |
 |  7934 |      17160 |
-+-------+------------+
 
 ## 9. Display the names of all employees working as clerks and drawing a salary more than 3,000.
 
@@ -178,9 +162,7 @@ Empty set (0.001 sec)
 ```
 
 ## Output
-+-------+
 | Ename |
-+-------+
+|-------|
 | SCOTT |
 | FORD  |
-+-------+
