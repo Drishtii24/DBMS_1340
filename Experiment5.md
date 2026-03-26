@@ -9,11 +9,9 @@
 ```
 
 ## Output
-+----------+
 | COUNT(*) |
-+----------+
+|----------|
 |       14 |
-+----------+
 
 ## 2. Display the total salary being paid to all employees.
 
@@ -23,11 +21,9 @@
 ```
 
 ## Output
-+-----------+
 | Total_Sal |
-+-----------+
+|-----------|
 |     33946 |
-+-----------+
 
 ## 3. Display the maximum salary from employee table.
 
@@ -37,11 +33,9 @@
 ```
 
 ## Output
-+---------+
 | Max_Sal |
-+---------+
+|---------|
 |    6050 |
-+---------+
 
 ## 4. Display the minimum salary from employee table.
 
@@ -52,11 +46,9 @@
 ```
 
 ## Output
-+---------+
 | Min_Sal |
-+---------+
+|---------|
 |     968 |
-+---------+
 
 ## 5. Display the average salary from employee table.
 
@@ -66,11 +58,9 @@
 ```
 
 ## Output
-+-----------+
 | Avg_Sal   |
-+-----------+
+|-----------|
 | 2424.7143 |
-+-----------+
 
 ## 6. Display the maximum salary being paid to clerk.
 
@@ -80,11 +70,9 @@
 ```
 
 ## Output
-+----------+
 | MAX(Sal) |
-+----------+
+|----------|
 |     1573 |
-+----------+
 
 ## 7. Display the maximum salary being paid in dept no 20.
 
@@ -94,11 +82,9 @@
 ```
 
 ## Output
-+----------+
 | MAX(Sal) |
-+----------+
+|----------|
 |     6050 |
-+----------+
 
 ## 8. Display the minimum salary paid to any salesman.
 
@@ -109,11 +95,9 @@
 ```
 
 ## Output
-+----------+
 | MIN(Sal) |
-+----------+
+|----------|
 |     1250 |
-+----------+
 
 ## 9. Display the average salary drawn by managers. giving 20% increment.
 
@@ -123,11 +107,9 @@
 ```
 
 ## Output
-+-----------+
 | Avg_Sal   |
-+-----------+
+|-----------|
 | 3338.0000 |
-+-----------+
 
 ## 10. Display the total salary drawn by analyst working in dept no 40.
 
@@ -137,11 +119,9 @@
 ```
 
 ## Output
-+-----------+
 | Total_Sal |
-+-----------+
+|-----------|
 |      3630 |
-+-----------+
 
 ## 11. Display the names of the employee in Uppercase.
 
@@ -151,9 +131,8 @@
 ```
 
 ## Output
-+--------------+
 | UPPER(Ename) |
-+--------------+
+|--------------|
 | SMITH        |
 | ALLEN        |
 | WARD         |
@@ -168,7 +147,6 @@
 | JAMES        |
 | FORD         |
 | MILLER       |
-+--------------+
 
 ## 12. Display the names of the employee in Lowercase.
 
@@ -178,9 +156,8 @@
 ```
 
 ## Output
-+--------------+
 | LOWER(Ename) |
-+--------------+
+|--------------|
 | smith        |
 | allen        |
 | ward         |
@@ -195,7 +172,6 @@
 | james        |
 | ford         |
 | miller       |
-+--------------+
 
 ## 13. Display the names of the employee in Proper case.
 
@@ -205,9 +181,8 @@
 ```
 
 ## Output
-+---------------------------------------------------------+
 | CONCAT(UPPER(LEFT(Ename,1)), LOWER(SUBSTRING(Ename,2))) |
-+---------------------------------------------------------+
+|---------------------------------------------------------|
 | Smith                                                   |
 | Allen                                                   |
 | Ward                                                    |
@@ -222,7 +197,6 @@
 | James                                                   |
 | Ford                                                    |
 | Miller                                                  |
-+---------------------------------------------------------+
 
 ## 14. Display the length of Your name using appropriate function
 
@@ -232,11 +206,9 @@
 ```
 
 ## Output
-+-------------+
 | Name_Length |
-+-------------+
+|-------------|
 |          15 |
-+-------------+
 
 ## 15. Display the length of all the employee names.
 
@@ -246,9 +218,8 @@
 ```
 
 ## Output
-+--------+---------------+
 | Ename  | LENGTH(Ename) |
-+--------+---------------+
+|--------|---------------|
 | SMITH  |             5 |
 | ALLEN  |             5 |
 | WARD   |             4 |
@@ -263,4 +234,3 @@
 | JAMES  |             5 |
 | FORD   |             4 |
 | MILLER |             6 |
-+--------+---------------+
