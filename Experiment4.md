@@ -8,13 +8,11 @@
 ```
 
 ## Output
-+-------+--------+---------+------+------------+------+------+--------+
 | Empno | Ename  | Job     | Mgr  | Hiredate   | Sal  | Comm | Deptno |
-+-------+--------+---------+------+------------+------+------+--------+
+|-------|--------|---------|------|------------|------|------|--------|
 |  7788 | SCOTT  | ANALYST | 7566 | 1982-12-09 | 3300 | NULL |     40 |
 |  7876 | ADAMS  | CLERK   | 7788 | 1983-01-12 | 1210 | NULL |     20 |
 |  7934 | MILLER | CLERK   | 7782 | 1982-01-23 | 1430 | NULL |     10 |
-+-------+--------+---------+------+------------+------+------+--------+
 
 ## 2. Display the names of employees whose names have second alphabet A in their names.
 
@@ -24,13 +22,11 @@
 ```
 
 ## Output
-+--------+
 | Ename  |
-+--------+
+|--------|
 | WARD   |
 | MARTIN |
 | JAMES  |
-+--------+
 
 ## 3. Display the names of employees whose name is exactly five characters in length
 
@@ -40,9 +36,8 @@
 ```
 
 ## Output
-+-------+
 | Ename |
-+-------+
+|-------|
 | SMITH |
 | ALLEN |
 | JONES |
@@ -51,7 +46,6 @@
 | SCOTT |
 | ADAMS |
 | JAMES |
-+-------+
 
 ## 4. Display the names of employees whose names have second alphabet A in their names.
 
@@ -62,13 +56,11 @@
 ```
 
 ## Output
-+--------+
 | Ename  |
-+--------+
+|--------|
 | WARD   |
 | MARTIN |
 | JAMES  |
-+--------+
 
 ## 5. Display the names of employees who are not working as salesman or clerk or analyst.
 
@@ -78,14 +70,12 @@
 ```
 
 ## Output
-+-------+
 | Ename |
-+-------+
+|-------|
 | JONES |
 | BLAKE |
 | CLARK |
 | KING  |
-+-------+
 
 ## 6. Display the name of the employee along with their annual salary (sal*12). The name of the employee earning highest salary should appear first.
 
@@ -95,9 +85,8 @@
 ```
 
 ## Output
-+--------+------------+
 | Ename  | Annual_Sal |
-+--------+------------+
+|--------|------------|
 | KING   |      66000 |
 | SCOTT  |      39600 |
 | FORD   |      39600 |
@@ -112,7 +101,6 @@
 | ADAMS  |      14520 |
 | JAMES  |      12540 |
 | SMITH  |      10560 |
-+--------+------------+
 
 ## 7. Display name, sal, hra, pf, da, totalsal for each employee. The output should be in the order of total sal, hra 15% of sal, da 10% of sal, pf 5% of sal. Total salary will be (sal*hra*da)-pf.
 
@@ -123,9 +111,8 @@
 ```
 
 ## Output
-+--------+----------------+--------+-------+--------+
 | Ename  | Total_Sal      | hra    | da    | pf     |
-+--------+----------------+--------+-------+--------+
+|--------|----------------|--------|-------|--------|
 | SMITH  |   10221640.000 | 132.00 |  88.0 |  440.0 |
 | ALLEN  |   61439200.000 | 240.00 | 160.0 |  800.0 |
 | WARD   |   29296250.000 | 187.50 | 125.0 |  625.0 |
@@ -140,7 +127,6 @@
 | JAMES  |   17116969.375 | 156.75 | 104.5 |  522.5 |
 | FORD   |  539053350.000 | 495.00 | 330.0 | 1650.0 |
 | MILLER |   43862390.000 | 214.50 | 143.0 |  715.0 |
-+--------+----------------+--------+-------+--------+
 
 ## 8. Update the salary of each employee by 10% increment who are not eligible for commission.
 
@@ -163,16 +149,14 @@ giving 20% increment.
 ```
 
 ## Output
-+-------+-------+-----------+------+------------+------+------+--------+
 | Empno | Ename | Job       | Mgr  | Hiredate   | Sal  | Comm | Deptno |
-+-------+-------+-----------+------+------------+------+------+--------+
+|-------|-------|-----------|------|------------|------|------|--------|
 |  7566 | JONES | MANAGER   | 7839 | 1981-04-02 | 3600 | NULL |     20 |
 |  7698 | BLAKE | MANAGER   | 7839 | 1981-05-01 | 3449 | NULL |     30 |
 |  7782 | CLARK | MANAGER   | 7839 | 1981-06-09 | 2965 | NULL |     20 |
 |  7788 | SCOTT | ANALYST   | 7566 | 1982-12-09 | 3630 | NULL |     40 |
 |  7839 | KING  | PRESIDENT | NULL | 1981-11-17 | 6050 | NULL |     20 |
 |  7902 | FORD  | ANALYST   | 7566 | 1981-12-03 | 3630 | NULL |     20 |
-+-------+-------+-----------+------+------------+------+------+--------+
 
 ## 10. Display those employees whose salary contains atleast 3 digits.
 
@@ -182,9 +166,8 @@ giving 20% increment.
 ```
 
 ## Output
-+-------+--------+-----------+------+------------+------+------+--------+
 | Empno | Ename  | Job       | Mgr  | Hiredate   | Sal  | Comm | Deptno |
-+-------+--------+-----------+------+------------+------+------+--------+
+|-------|--------|-----------|------|------------|------|------|--------|
 |  7369 | SMITH  | CLERK     | 7902 | 1980-12-17 |  968 | NULL |     20 |
 |  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 | 1600 |  300 |     30 |
 |  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 | 1250 |  300 |     30 |
@@ -199,4 +182,3 @@ giving 20% increment.
 |  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 | 1150 | NULL |     30 |
 |  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 | 3630 | NULL |     20 |
 |  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1573 | NULL |     10 |
-+-------+--------+-----------+------+------------+------+------+--------+
