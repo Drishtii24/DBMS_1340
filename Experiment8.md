@@ -12,7 +12,7 @@
 
 ## Output
 | Empno | Ename  | Dname      |
-|-----------------------------|
+|-------|--------|------------|
 |  7934 | MILLER | RESEARCH   |
 |  7369 | SMITH  | ACCOUNTING |
 |  7566 | JONES  | ACCOUNTING |
